@@ -1,0 +1,24 @@
+{
+  "name": "metal-archivesnew",
+  "version": "1.0.0",
+  "description": "Modernized",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass src:dist --no-source-map --style=expanded",
+    "watch": "sass --watch src:dist --no-source-map --style=expanded"
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliverJohanssonWebb/metal-archivesNEW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/OliverJohanssonWebb/metal-archivesNEW/issues"
+  },
+  "homepage": "https://github.com/OliverJohanssonWebb/metal-archivesNEW#readme"
+}
