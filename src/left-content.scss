@@ -1,0 +1,58 @@
+@use "./abstracts/variables" as *;
+
+
+.left-content {
+    margin-top: 20px;
+    .login-field {
+        @include glass-border;
+        @include glass-text;
+        @include widht-containers;
+        font-size: 10px;
+        
+
+        p {
+            padding-left: 5px;
+        }
+
+        input {
+            width: 95%;
+        }
+
+        .login-button {
+            display: flex;
+            justify-content: flex-end;
+            padding-top: 5px;
+
+            button {
+                @include glass-border;
+                @include glass-text;
+            }
+        }
+    } 
+}
+
+.register, .password-reset {
+    display: block;
+    @include glass-text;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.bands-sorting-content {
+    @include glass-border;
+    @include glass-text;
+    @include widht-containers;
+    
+    margin-top: 5px;
+
+    p {
+        padding-left: 5px;
+    }
+
+    a {
+        font-size: 12px;
+        text-decoration: none;
+        color: gray;
+        padding-left: 5px;
+    }
+}

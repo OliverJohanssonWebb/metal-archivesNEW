@@ -1,0 +1,42 @@
+$primary-color: rgba(71, 71, 85, 0.534);
+$primary-background-box-color: grey;
+$primary-textbox-color: rgba(255, 255, 255, 0.527);
+$primary-button-color: red;
+
+@mixin glass-border($bg: rgba(255,255,255,0.08), $border: rgba(255,255,255,0.2)) {
+    background: $bg;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    border: 1px solid $border;
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+@mixin glass-text(
+    $weight: 500,
+    $spacing: 0.08em,
+    $color: rgba(255, 255, 255, 0.9)
+) {
+    font-family: 'Inter', sans-serif;
+    font-weight: $weight;
+    letter-spacing: $spacing;
+    text-transform: uppercase;
+    color: $color;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+}
+
+@mixin banner {
+    width: 33%;
+    height: 200px;
+    background-size: contain;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000; 
+}
+
+@mixin widht-containers {
+    width: 10%;
+}

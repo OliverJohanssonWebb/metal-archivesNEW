@@ -1,0 +1,48 @@
+@use "./abstracts/variables" as *;
+@use "left-content"; 
+body {
+    background-color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+.banners {
+    display: flex;
+    padding-left: 30px;
+
+.banner-left {
+    @include banner;
+    background-image: url('/images/banner-left.jpeg');
+}
+
+.banner-main {
+    @include banner;
+    background-image: url('/images/banner-black3.png'); 
+}
+
+.banner-right {
+    @include banner;
+    background-image: url('/images/banner-right.webp');   
+}
+}
+.header-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    
+    li {
+        display: inline;
+        padding: 12px 30px;
+        @include glass-border;    
+    }
+
+    a {
+        @include glass-text;
+    }     
+}
+
+.header-content a:hover {
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
