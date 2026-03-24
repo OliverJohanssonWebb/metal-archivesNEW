@@ -1,5 +1,6 @@
 .left-content {
-  margin-top: 20px;
+  margin: 20px 5px 5px 5px;
+  width: 15%;
 }
 .left-content .login-field {
   background: rgba(255, 255, 255, 0.08);
@@ -15,7 +16,9 @@
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
   text-decoration: none;
-  width: 10%;
+  list-style: none;
+  padding-left: 5px;
+  width: 100%;
   font-size: 10px;
 }
 .left-content .login-field p {
@@ -43,6 +46,8 @@
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
   text-decoration: none;
+  list-style: none;
+  padding-left: 5px;
 }
 
 .register, .password-reset {
@@ -54,8 +59,9 @@
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
   text-decoration: none;
-  padding-bottom: 10px;
+  list-style: none;
   padding-left: 5px;
+  padding-bottom: 10px;
 }
 
 .bands-sorting-content {
@@ -72,7 +78,9 @@
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
   text-decoration: none;
-  width: 10%;
+  list-style: none;
+  padding-left: 5px;
+  width: 100%;
   margin-top: 5px;
 }
 .bands-sorting-content p {
@@ -82,12 +90,85 @@
   font-size: 12px;
   text-decoration: none;
   color: gray;
+}
+
+.main-content .user {
+  color: rgb(128, 3, 3);
+  text-shadow: 0 0 6px rgba(255, 102, 0, 0.555);
+}
+.main-content {
+  margin: 20px 5px 5px 5px;
+  width: 60%;
+  padding-left: 12px;
+}
+.main-content .post {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.main-content .post h2 {
+  font-size: 20px;
+}
+.main-content .post {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  list-style: none;
   padding-left: 5px;
+  margin-bottom: 5px;
+}
+
+.right-content {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  list-style: none;
+  padding-left: 5px;
+  margin: 20px 5px 5px 5px;
+}
+.right-content .menu {
+  display: flex;
+}
+.right-content .menu li {
+  list-style: none;
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  align-items: center;
+}
+.right-content .menu a {
+  text-decoration: none;
 }
 
 body {
   background-color: black;
   font-family: "Inter", sans-serif;
+}
+
+.content {
+  display: flex;
 }
 
 .banners {
@@ -146,6 +227,8 @@ body {
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
   text-decoration: none;
+  list-style: none;
+  padding-left: 5px;
 }
 
 .header-content a:hover {

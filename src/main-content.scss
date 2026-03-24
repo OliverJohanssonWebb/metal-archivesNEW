@@ -1,0 +1,17 @@
+@use "./abstracts/variables" as *;
+
+.main-content {
+    @include user;
+    @include margin;
+    width: 60%;
+    padding-left: 12px;
+    
+
+    .post {
+        @include glass-border;
+        @include glass-text-post;
+        margin-bottom: 5px;
+        
+    }
+
+}

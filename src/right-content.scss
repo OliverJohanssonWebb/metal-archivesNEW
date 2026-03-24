@@ -1,0 +1,21 @@
+@use "./abstracts/variables" as *;
+
+.right-content {
+    @include glass-border;
+    @include glass-text;
+    @include margin;
+    
+    .menu {
+        display: flex;
+
+        li {
+            list-style: none;
+            font-size: 20px;
+            @include glass-border;
+            align-items: center;
+        }
+        a {
+            text-decoration: none;
+        }
+    }
+}
