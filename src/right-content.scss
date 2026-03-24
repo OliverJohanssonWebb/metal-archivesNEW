@@ -1,21 +1,46 @@
 @use "./abstracts/variables" as *;
 
 .right-content {
-    @include glass-border;
-    @include glass-text;
-    @include margin;
-    
-    .menu {
-        display: flex;
 
-        li {
-            list-style: none;
-            font-size: 20px;
-            @include glass-border;
-            align-items: center;
-        }
+    .right-list {
+        @include margin;
+    
+
+    .menu {
+        
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        box-shadow: 0 0 100px rgba(255,255,255,0.1);
+
         a {
-            text-decoration: none;
+            @include glass-text;
+            @include glass-border;
+            
+            text-decoration: none;    
         }
     }
+
+    #content {
+        @include glass-text;
+        @include glass-border;
+        border-top: none;
+
+         ul {
+            margin-top: 1px;
+         }
+
+         li {
+            padding-top: 5px;
+            font-size: 10px;
+         }
+    }
+
+    .menu a.active {
+    border-bottom: none;
+}
+}
 }

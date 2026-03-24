@@ -62,8 +62,11 @@ document.querySelectorAll('.menu a').forEach(link => {
 
         const key = link.getAttribute('data-tab');
 
-        console.log("KEY:", key);
-        console.log("DATA:", data[key]);
+        document.querySelectorAll('.menu a').forEach(l => {
+            l.classList.remove('active');
+        });
+
+        link.classList.add('active');
 
         if (!data[key]) return;
 
