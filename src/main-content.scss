@@ -1,0 +1,25 @@
+@use "./abstracts/variables" as *;
+
+.main-content {
+    @include user;
+    @include margin;
+    width: 70%;
+
+    .post {
+        @include glass-border;
+        @include glass-text-post;
+        margin-bottom: 5px;
+        
+    }
+
+}
+
+@media (max-width: 768px) {
+  .main-content,
+  .post {
+    margin: 0;
+    padding-left: 0;
+  }
+}
+
+

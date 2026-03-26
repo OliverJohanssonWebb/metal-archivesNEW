@@ -1,0 +1,105 @@
+.left-content {
+  margin: 20px 10px 5px 10px;
+  margin-left: 0;
+  width: 15%;
+}
+.left-content .login-field {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  list-style: none;
+  padding-left: 5px;
+  width: 100%;
+  font-size: 10px;
+}
+.left-content .login-field p {
+  padding-left: 5px;
+  text-decoration: underline;
+}
+.left-content .login-field input {
+  width: 95%;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.left-content .login-field .login-button {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 5px;
+  padding-right: 6px;
+}
+.left-content .login-field .login-button button {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  list-style: none;
+  padding-left: 5px;
+}
+
+.register, .password-reset {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  list-style: none;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+.bands-sorting-content {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  list-style: none;
+  padding-left: 5px;
+  width: 100%;
+  margin-top: 5px;
+}
+.bands-sorting-content p {
+  padding-left: 5px;
+}
+.bands-sorting-content .other-other {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  padding-top: 2rem;
+}
+.bands-sorting-content a {
+  font-size: 12px;
+  text-decoration: none;
+  color: gray;
+}

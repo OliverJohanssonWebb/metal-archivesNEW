@@ -1,0 +1,69 @@
+@use "./abstracts/variables" as *;
+
+.right-content {
+    width: 15%;
+
+    .search-field {
+        display: column;
+        justify-content: center;
+        align-items: center;
+        height: 6rem;
+        @include margin;
+        margin-left: 0;
+        @include glass-text;
+        @include glass-border;
+    
+        input {
+            @include glass-border;
+        }
+        
+        .submit-button {
+            @include glass-border;
+            @include glass-text;
+            height: 6rem;
+            font-size: 12px;
+            padding: 2px;
+        }
+    
+    }
+
+    .new-section, .update-section, .review-section {
+        @include glass-text;
+        padding-left: 0;
+    }
+
+.new-headers, .update-headers, .review-headers {
+    display: flex;
+    list-style: none;
+    @include glass-text;
+
+    a {
+        display: flex;
+        margin-right: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        padding: 5px;
+        @include glass-border;
+    }
+}
+
+#content-new, #content-update, #content-review {
+    @include glass-text;
+    @include glass-border;
+    font-size: 10px;
+
+    li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        
+    }
+    
+    p {
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+    }
+    
+}
+}
