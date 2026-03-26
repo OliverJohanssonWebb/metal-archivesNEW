@@ -10,7 +10,7 @@ body {
         .mobile-banner  {
             @include banner;
             width: 100%;
-            background-image: url('/images/banner-mobileblack.png');           
+            background-image: url('../images/banner-mobileblack.png');           
         }
     }
     
@@ -28,17 +28,17 @@ body {
 
 .banner-left {
     @include banner;
-    background-image: url('/images/banner-left.jpeg');
+    background-image: url('../images/banner-left.jpeg');
 }
 
 .banner-main {
     @include banner;
-    background-image: url('/images/banner-black3.png'); 
+    background-image: url('../images/banner-black3.png'); 
 }
 
 .banner-right {
     @include banner;
-    background-image: url('/images/banner-right.webp');   
+    background-image: url('../images/banner-right.webp');   
 }
 }
 .header-content {
