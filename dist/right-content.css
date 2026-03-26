@@ -1,58 +1,13 @@
-.right-content .right-list {
-  margin: 20px 5px 5px 5px;
+.right-content .page {
+  display: none;
 }
-.right-content .right-list .menu {
+.right-content .active {
+  display: block;
+}
+.right-content .new-content {
   display: flex;
-  justify-content: center;
-  text-decoration: none;
   list-style: none;
-  margin: 0px;
-  padding: 0px;
-  box-shadow: 0 0 100px rgba(255, 255, 255, 0.1);
 }
-.right-content .right-list .menu a {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.9);
-  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
-  text-decoration: none;
-  list-style: none;
-  padding-left: 5px;
-  background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-  text-decoration: none;
-}
-.right-content .right-list #content {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.9);
-  text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
-  text-decoration: none;
-  list-style: none;
-  padding-left: 5px;
-  background: rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-  border-top: none;
-}
-.right-content .right-list #content ul {
-  margin-top: 1px;
-}
-.right-content .right-list #content li {
-  padding-top: 5px;
-  font-size: 10px;
-}
-.right-content .right-list .menu a.active {
-  border-bottom: none;
+.right-content .new-content .new-bands, .right-content .new-content .new-labels, .right-content .new-content .new-artists {
+  border: 1px solid red;
 }
