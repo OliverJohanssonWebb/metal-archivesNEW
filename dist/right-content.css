@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   height: 6rem;
+  width: 97%;
   margin: 20px 10px 5px 10px;
   margin-left: 0;
   font-family: "Inter", sans-serif;
@@ -61,6 +62,9 @@
   padding-left: 5px;
   padding-left: 0;
 }
+.right-content .new-section p, .right-content .update-section p, .right-content .review-section p {
+  margin-bottom: 5px;
+}
 .right-content .new-headers, .right-content .update-headers, .right-content .review-headers {
   display: flex;
   list-style: none;
@@ -72,6 +76,7 @@
   text-decoration: none;
   list-style: none;
   padding-left: 5px;
+  padding-left: 0;
 }
 .right-content .new-headers a, .right-content .update-headers a, .right-content .review-headers a {
   display: flex;

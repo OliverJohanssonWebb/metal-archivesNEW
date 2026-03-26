@@ -20,6 +20,7 @@
         input {
             width: 95%;
             @include glass-border;
+            @include glass-text;
         }
 
         .login-button {
