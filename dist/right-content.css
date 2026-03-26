@@ -10,6 +10,7 @@
   text-decoration: none;
   list-style: none;
   padding-left: 5px;
+  padding-left: 0;
 }
 .right-content .new-headers, .right-content .update-headers, .right-content .review-headers {
   display: flex;

@@ -3,11 +3,10 @@
 .right-content {
     width: 15%;
 
+
     .new-section, .update-section, .review-section {
         @include glass-text;
-        p {
-        
-        }
+        padding-left: 0;
     }
 
 .new-headers, .update-headers, .review-headers {
