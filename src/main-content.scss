@@ -3,9 +3,7 @@
 .main-content {
     @include user;
     @include margin;
-    width: 60%;
-    padding-left: 12px;
-    
+    width: 70%;
 
     .post {
         @include glass-border;
@@ -15,3 +13,13 @@
     }
 
 }
+
+@media (max-width: 768px) {
+  .main-content,
+  .post {
+    margin: 0;
+    padding-left: 0;
+  }
+}
+
+

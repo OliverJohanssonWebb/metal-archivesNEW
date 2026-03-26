@@ -3,6 +3,7 @@
 
 .left-content {
     @include margin;
+    margin-left: 0;
     width: 15%;
     .login-field {
         @include glass-border;

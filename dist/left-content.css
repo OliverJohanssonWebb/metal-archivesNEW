@@ -1,5 +1,6 @@
 .left-content {
-  margin: 20px 5px 5px 5px;
+  margin: 20px 10px 5px 10px;
+  margin-left: 0;
   width: 15%;
 }
 .left-content .login-field {
@@ -12,7 +13,6 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
   text-decoration: none;
@@ -42,7 +42,6 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
   text-decoration: none;
@@ -55,7 +54,6 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
   text-decoration: none;
@@ -74,7 +72,6 @@
   font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
   text-decoration: none;

@@ -1,23 +1,47 @@
 @use "./abstracts/variables" as *;
 
 .right-content {
+    width: 15%;
 
-    .page {
-        display: none;
+    .new-section, .update-section, .review-section {
+        @include glass-text;
+        p {
+        
+        }
     }
 
-    .active {
-        display: block;
-    }
-
-
-.new-content {
+.new-headers, .update-headers, .review-headers {
     display: flex;
     list-style: none;
-    
+    @include glass-text;
 
-    .new-bands, .new-labels, .new-artists {
-        border: 1px solid red;
+    a {
+        display: flex;
+        margin-right: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        padding: 5px;
+        @include glass-border;
     }
+}
+
+#content-new, #content-update, #content-review {
+    @include glass-text;
+    @include glass-border;
+    font-size: 10px;
+
+    li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        
+    }
+    
+    p {
+        display: flex;
+        justify-content: center;
+        text-decoration: underline;
+    }
+    
 }
 }
