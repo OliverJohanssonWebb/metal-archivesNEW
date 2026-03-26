@@ -3,6 +3,29 @@
 .right-content {
     width: 15%;
 
+    .search-field {
+        display: column;
+        justify-content: center;
+        align-items: center;
+        height: 6rem;
+        @include margin;
+        margin-left: 0;
+        @include glass-text;
+        @include glass-border;
+    
+        input {
+            @include glass-border;
+        }
+        
+        .submit-button {
+            @include glass-border;
+            @include glass-text;
+            height: 6rem;
+            font-size: 12px;
+            padding: 2px;
+        }
+    
+    }
 
     .new-section, .update-section, .review-section {
         @include glass-text;
